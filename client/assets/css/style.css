@@ -1,0 +1,23 @@
+.logo,.logo-header {
+    float: left;
+}
+.logo{
+    padding-top: 10px;
+}
+.clearfix{
+    clear: both;
+}
+#challenge{
+    border-style: solid;
+}
+.animate.ng-enter, .animate.ng-leave {
+    animation-duration: 1s;
+}
+
+.animate.ng-enter {
+   animation-name: bounceInLeft;
+}
+
+.animate.ng-leave {
+   animation-name: bounceOutLeft;
+}
